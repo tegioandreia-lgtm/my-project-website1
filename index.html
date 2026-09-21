@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andreia Tegio - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+
+  <nav>
+    <button class="menu-toggle">☰</button>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="frame">
+
+    <header>
+      <img src="profile.jpg" alt="Andreia Tegio" class="profile-pic">
+      <h1>Andreia Tegio</h1>
+      <p>B.S. Information Technology | Aspiring  UI Designer</p>
+      <p>Passionate about creating clean, functional, and user-friendly web experiences.</p>
+    </header>
+
+    <div class="action-buttons">
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=andreiategio@gmail.com" class="btn">Email</a>
+    <a href="https://github.com/yourusername" class="btn" target="_blank">GitHub</a>
+    </div>
+
+    <section id="about">
+      <h2>About</h2>
+      <p> Hello! I am Andreia Tegio, an Information Technology student with a passion for UI design. I love creating clean, attractive, and easy-to-use screen layouts for web applications. My main goal is to design simple digital experiences that solve practical problems for everyday users. I am always excited to learn new visual design ideas and bring creative interfaces to life.</p>
+    </section>
+
+
+    <section id="skills">
+  <h2>Skills</h2>
+
+
+  <h3>Languages</h3>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Java</li>
+    <li>C++</li>
+    <li>C#</li>
+  </ul>
+
+
+  <h3>Tools</h3>
+  <ul>
+    <li>VS Code</li>
+    <li>Canva</li>
+    <li>Eclipse</li>
+    <li>Visual Studio</li>
+  </ul>
+</section>
+    <hr>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-card">
+        <img src="library system.png" alt="Project 1 Screenshot">
+        <p><strong>Library Management System:</strong> Our team built a digital library system to help organize books and manage user accounts easily. I worked on coding the system and contributed design ideas for a clean login interface.</p>
+      </div>
+      <div class="project-card">
+        <img src="ease-order.jpg" alt="Project 2 Screenshot">
+        <p><strong>Ease-Order:</strong> I created a UI design tailored for users who need motor support by incorporating extra-large navigation buttons for easy reachability. The clean layout and generous target spacing significantly reduce interaction errors for individuals with limited hand mobility or tremors.</p>
+      </div>
+    </section>
+    <hr>
+
+    <section id="education">
+      <h2>Education</h2>
+        <p>[Present]   | Eastern Samar State University , Borongan City</p>
+        <p>[2018-2025] | Dolores National High School</p>
+       <p>[2010-2018] | Dolores Central Elementary School</p>
+    
+    </section>
+    <hr>
+
+    <section id="contact">
+      <h2>Get in Touch</h2>
+      <p>Open to create a UI design. Reach out any time!</p>
+      <p>Contact Number: 09758140382</p>
+    </section>
+    <hr>
+ 
+    <footer>
+      © 2026 Andreia Tegio. All rights reserved.
+    </footer
+
+  </div> 
+
+  <script>
+    const toggleBtn = document.querySelector('.menu-toggle');
+    const navMenu = document.querySelector('nav ul');
+    toggleBtn.addEventListener('click', () => {
+      navMenu.classList.toggle('show');
+    });
+  </script>
+
+</body>
+</html>
